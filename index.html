@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="dist/js/bundle.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkgreen;
+        }
+        .bloquinho {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+        }
+
+        div.tile {
+            display: inline-block;
+        }
+
+        div.tile div {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            line-height: 0;
+            font-size:0;
+        }
+
+        canvas.tile {
+            width: 32px;
+            height: 32px;
+            image-rendering: crisp-edges;
+            -ms-interpolation-mode: nearest-neighbor;
+        }
+
+        .tileBloquinho {
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+        }
+
+        button {
+            position: absolute;
+            width: 16px;
+            height: 16px; 
+            padding: 0px 0px 0px 0px;
+            border-width: 0px 0px 0px 0px;
+            box-sizing: content-box;
+            min-width: 0px;
+            min-height: 0px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="display: none;" id="paletteTemplate">
+        <h1>Palette Address</h1>
+        <div>
+        </div>
+    </div> 
+</body>
+</html>
